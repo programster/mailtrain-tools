@@ -5,12 +5,10 @@ require_once(__DIR__ . '/settings.php');
 
 function main($subscriptionID)
 {
-    #grant select on mailtrain.* to readOnlyUser identified by 'someRandomPassword';
-
     $username = DB_USER;
     $password = DB_PASSWORD;
     $hostname = DB_HOST;
-    $dbName = "mailtrain";
+    $dbName = DB_NAME;
 
     $tableName = 'subscription__' . $subscriptionID;
 
