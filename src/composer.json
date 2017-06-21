@@ -1,0 +1,5 @@
+{
+    "require": {
+        "irap/core-libs": "^1.1"
+    }
+}
